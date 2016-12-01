@@ -1,5 +1,6 @@
 const db = require('../lib/dbConnect');
 
+// attribution: MovieHause Lab - Rafa, Bobby (GA)
 function getAllGardens(req, res, next) {
 
   db.any('SELECT * FROM gardens;')
